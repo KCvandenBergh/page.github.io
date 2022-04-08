@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header{
+     box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 100px 60px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+
+}
+
+img{
+    width: 5%;
+    height: auto;
+    right: 100%;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#home{
+    background-color: #E6BA95;
+
+}
+
+#producten{
+    background-color: #FAFDD6;
+}
+
+#about{
+    background-color: #E4E9BE;
+}
+
+#memberships{
+    background-color: #A2B38B;
+}
+
+#contact{
+    background-color: #826F66;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    color: #000;
+
+}
+
+p{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    color: #000;
+}
